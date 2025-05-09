@@ -11,6 +11,6 @@ To install simply build with the singularity recipe as follows
 To run the image
 
 ```
-singularity exec fato2bit-quick.sif faToTwobit -h
+singularity exec fato2bit-quick.sif faToTwoBit -h
 ```
 
