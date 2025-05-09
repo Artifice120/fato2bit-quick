@@ -1,9 +1,9 @@
 Bootstrap: docker
 From: nvidia/cuda:12.9.0-cudnn-devel-ubuntu24.04
-Stage: spython-base
+Stage: fato2bit-quick
 
 %labels
-MAINTAINER Sneha D. Goenka, gsneha@stanford.edu
+source: https://github.com/Artifice120/fato2bit-quick
 %post
 
 su -  root # USER root
